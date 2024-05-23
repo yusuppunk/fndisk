@@ -19,7 +19,6 @@ def auth():
     return 'Unauthorized',401
   try:
     auth_type,credentials = auth.split(None,1)
-    #username,password = credentials.strip().decode('base64').split(':',1)
     username, password = base64.b64decode(credentials.strip()).decode('utf-8').split(':', 1)
   except Exception as e:
     return 'Unauthorized',401
