@@ -1,7 +1,6 @@
 # fndisk
 personal netdisk-flask
 
-<<<<<<< HEAD
 python3 -m venv venv  # 创建新的虚拟环境
 source venv/bin/activate  # 激活新的虚拟环境
 pip install -r requirements.txt  # 安装包
@@ -19,4 +18,3 @@ sudo apt-get install python3-dev default-libmysqlclient-dev build-essential pkg-
 =======
 登录界面
 <img width="1799" alt="image" src="https://github.com/yusuppunk/fndisk/assets/29418403/628bdeb2-346b-47ab-8d50-bcacbe9900c9">
->>>>>>> bf1ba68902d9a1bb7b4244e66e484943feb3515e
