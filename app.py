@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
 # MySQL 配置
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Aa-123123445@localhost/users'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:123123445@localhost/users'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db.init_app(app)
@@ -121,4 +121,4 @@ def logout():
     return redirect(url_for('index'))
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8001, debug=True)
+    app.run(host='0.0.0.0', port=8001)
